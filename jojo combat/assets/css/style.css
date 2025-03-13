@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#map {
+    width: 800px;
+    height: 500px;  
+    position: relative;
+    background-image: url("/assets/img/balyka-oleksii-24.jpg");
+    background-size: cover;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+
+#dio {
+    width: 200px;
+    height: 277px;
+    position: relative;
+    bottom: -223px;;
+    left: 0;
+}
+
+#handDIO {
+    position: absolute;
+    top: -9px;
+    right: -153px;
+    transform: rotate(302deg);
+
+    transition: 1s;
+
+    opacity: 0;
+}
+
+#handJOJO {
+    position: absolute;
+    top: -30px;
+    right: 260px;
+    transform: rotate(75deg);
+
+    transition: 1s;
+
+    opacity: 0;
+
+}
+
+#jojoHealthDisplay {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+}
+
+#dioHealthDisplay {
+    position: absolute;
+    color: red;
+    font-size: 20px;
+}
+
+#counter
+{
+    width: 20%;
+    height: 10%;
+    left: 45%;
+    position: absolute;
+    font-size: 48px;
+    font-weight: bold;
+
+}
+
+
+#jojo {
+    width: 200px;
+    height: 277px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
